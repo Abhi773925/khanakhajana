@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
+    <div class="bg-white rounded-lg shadow-lg p-6 sm:p-8 lg:p-12">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-orange-700 mb-6 text-center">About Khanakhajana</h1>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            <div>
+                <p class="text-gray-700 text-base sm:text-lg leading-relaxed mb-6">
+                    Welcome to <span class="font-semibold text-orange-600">Khanakhajana</span>! We are passionate about bringing you the best food experiences. Our menu is curated to delight your taste buds and our team is dedicated to quality and service.
+                </p>
+                <p class="text-gray-700 text-base sm:text-lg leading-relaxed mb-6">
+                    At Khanakhajana, we believe in serving authentic flavors with a modern touch. Every dish is prepared with love and the finest ingredients to ensure an unforgettable dining experience.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <div class="bg-orange-50 p-4 rounded-lg flex-1">
+                        <h3 class="font-semibold text-orange-700 mb-2">Fresh Ingredients</h3>
+                        <p class="text-gray-600 text-sm">We source only the freshest ingredients for our dishes.</p>
+                    </div>
+                    <div class="bg-orange-50 p-4 rounded-lg flex-1">
+                        <h3 class="font-semibold text-orange-700 mb-2">Fast Delivery</h3>
+                        <p class="text-gray-600 text-sm">Quick and reliable delivery to your doorstep.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="order-first lg:order-last">
+                <div class="bg-gradient-to-br from-orange-100 to-orange-200 p-8 rounded-lg text-center">
+                    <svg class="w-20 h-20 mx-auto text-orange-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                    </svg>
+                    <h3 class="text-xl font-bold text-orange-700 mb-2">Made with Love</h3>
+                    <p class="text-orange-600">Every dish is crafted with care and passion for exceptional taste.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

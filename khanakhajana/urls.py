@@ -5,5 +5,7 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),  # home page with hero section
-    path('menu/',views.menu)
+    path('menu/', views.menu, name='menu'),
+    path('about/', views.about, name='about'),
+    path('contact/', views.contact, name='contact'),
 ]
