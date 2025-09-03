@@ -1,0 +1,5 @@
+Django>=5.0,<6.0
+gunicorn
+psycopg2-binary  # for PostgreSQL
+dj-database-url  # to parse database URL
+whitenoise       # for serving static files
